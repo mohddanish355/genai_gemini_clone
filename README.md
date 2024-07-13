@@ -1,8 +1,18 @@
-# React + Vite
+## Configuration Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this project, you need to configure your API key. Follow these steps:
 
-Currently, two official plugins are available:
+1. **Locate the Configuration File**:
+   - Navigate to the `src` folder.
+   - Open the `config` folder.
+   - Find the `gemini.js` file.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Set Your API Key**:
+   - Open the `gemini.js` file.
+   - Look for the line where `const apiKey` is defined.
+   - Replace the placeholder text with your actual API key.
+
+   Example:
+   ```javascript
+   // src/config/gemini.js
+   const apiKey = 'your-api-key-here';  // Replace 'your-api-key-here' with your actual API key
